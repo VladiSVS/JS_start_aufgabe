@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+   <ul>
+    <li><a id="rosa" href="#">emoH</a></li>
+      <li><a class="nav" id="navHome" href="#home">Home</a></li>
+      <li><a class="nav" id="navNews" href="#news">News</a></li>
+      <li><a class="nav" id="navContact" href="#contact">Contact</a></li>
+      <li class="nav" style="float:right"><a class="active" id="navChange" onclick="add()">Change me</a></li>
+    </ul>
+    
+    <div class="form">
+        <form id="form1" >
+          <label for="vorname">Vorname</label><input type="text" id="vorname" name="vorname"
+            placeholder="Dein Name..."><label for="nachname">Last Name</label><input type="text" id="nachname"
+            name="nachname" placeholder="Dein Nachname..."><label for="land">Land</label><select id="land" name="land">
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Usa">USA</option>
+        </select><input type="button" value="Send" onclick="send()"></form>
+    </div>
+
+    <input type="button" value="Backgraund-Color" onclick="randomColor()">
+  
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
