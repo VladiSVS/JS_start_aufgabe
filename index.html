@@ -16,17 +16,31 @@
       <li><a class="nav" id="navContact" href="#contact">Contact</a></li>
       <li class="nav" style="float:right"><a class="active" id="navChange" onclick="add()">Change me</a></li>
     </ul>
+
+    <article>
+        <div class="form">
+            <form id="form1" >
+              <label for="vorname">Vorname</label><input type="text" id="vorname" name="vorname"
+                placeholder="Dein Name..."><label for="nachname">Last Name</label><input type="text" id="nachname"
+                name="nachname" placeholder="Dein Nachname..."><label for="land">Land</label><select id="land" name="land">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+            </select><input type="button" value="Send" onclick="send()"></form>
+        </div>
     
-    <div class="form">
-        <form id="form1" >
-          <label for="vorname">Vorname</label><input type="text" id="vorname" name="vorname"
-            placeholder="Dein Name..."><label for="nachname">Last Name</label><input type="text" id="nachname"
-            name="nachname" placeholder="Dein Nachname..."><label for="land">Land</label><select id="land" name="land">
-            <option value="Australia">Australia</option>
-            <option value="Canada">Canada</option>
-            <option value="Usa">USA</option>
-        </select><input type="button" value="Send" onclick="send()"></form>
-    </div>
+        <div>
+            <button onclick="small()">Small</button>
+            <button onclick="middle()">Middle</button>
+            <button onclick="big()">Big & Crazy</button>
+    
+            <div class="wrapper">
+                <div id="element" class="small">
+                    <h1>Hallo classList!</h1>
+                </div>
+            </div>
+        </div>
+    </article>
 
     <input type="button" value="Backgraund-Color" onclick="randomColor()">
   

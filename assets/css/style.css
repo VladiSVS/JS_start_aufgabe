@@ -1,3 +1,7 @@
+h1 {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -62,9 +66,40 @@ ul {
     
         .form {
           width: 30%;
-          margin: 10% auto;
           border-radius: 5px;
           background-color: #f2f2f2;
           padding: 20px;
         }
+       
+article {
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}    
+
+.small {
+    margin-top: 5%;
+    color: #45a049;
+    font-size: 2em;
+    border: 20px solid gray;
+    border-radius: 25px;
+}
+
+.middle {
+    margin-top: 5%;
+    color: #45a049;
+    font-size: 3em;
+    border: 25px solid gray;
+    border-radius: 30px;
+}
+
+.big {
+    margin-top: 5%;
+    color: #45a049;
+    font-size: 5em;
+    border: 35px solid gray;
+    border-radius: 35px;
+}
+
     

@@ -100,3 +100,11 @@ function randomColor() {
     let colorThree = Math.floor(Math.random() * 255);
     document.body.style.background = "rgb(" + colorOne + "," + colorTwo + "," + colorThree + ")";
 }
+
+function middle() {
+    element.classList.add("middle");
+}
+
+function big() {
+    element.classList.add("big");
+}
