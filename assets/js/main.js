@@ -101,10 +101,20 @@ function randomColor() {
     document.body.style.background = "rgb(" + colorOne + "," + colorTwo + "," + colorThree + ")";
 }
 
+function small() {
+    element.classList.add("small");
+    element.classList.remove("middle");
+    element.classList.remove("big");
+}
+
 function middle() {
     element.classList.add("middle");
+    element.classList.remove("small");
+    element.classList.remove("big");
 }
 
 function big() {
     element.classList.add("big");
+    element.classList.remove("middle");
+    element.classList.remove("small");
 }
